@@ -51,6 +51,31 @@ project/
 
 ---
 
+📊 Dataset
+
+We trained our model on a combination of real and fake news articles, curated from public datasets and synthetic examples.
+
+Example real news: “ISRO successfully launches PSLV-C58 mission carrying 10 satellites into orbit.”
+
+Example fake news: “Government to provide free iPhones for all citizens as part of new digital policy.”
+
+---
+🧠 Model
+
+Base Model: MobileBERT
+
+Framework: Hugging Face Transformers + PyTorch
+
+Training: Performed on Kaggle GPU environment
+
+Output: Binary classification (0 = Fake, 1 = Real)
+
+📈 Performance (on test set):
+
+Accuracy: ~90% 
+
+---
+
 ## 🔧 Backend Setup (FastAPI)
 ```bash
 ### 1️⃣ Create virtual environment
@@ -87,9 +112,20 @@ Select the extension/ folder.
 Extension will appear in your browser.
 
 ```
+🔮 Future Improvements
+
+Expand dataset with multilingual news sources
+
+Add explainability with LIME/SHAP
+
+Deploy backend on cloud (AWS/GCP/Heroku) for global access
+
+Integrate with WhatsApp/Telegram bots
+---
 ☁️ Deployment on Render
 
 ----
+
 Backend
 Push your backend code to GitHub.
 On Render, create a Web Service.
