@@ -1,7 +1,7 @@
 # 📰 AI-Powered Fake News Detector
 
-An end-to-end application that detects whether a news article is **REAL** or **FAKE** using a fine-tuned **MobileBERT** model.  
-Built with **FastAPI (Backend)** and **JavaScript + Vite (Frontend / Chrome Extension)**.  
+An end-to-end AI-powered solution designed to combat online misinformation by classifying news articles as REAL or FAKE.
+This system leverages a fine-tuned MobileBERT transformer model for lightweight yet accurate text classification.  
 
 ---
 👉 **Live Demo**: https://hackathon-frontend1-qhwz.onrender.com/
